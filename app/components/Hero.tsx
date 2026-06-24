@@ -4,9 +4,30 @@ export default function Hero() {
       <p className="text-sm tracking-widest text-[var(--text-secondary)]">Olá, eu sou</p>
       <h1 className="text-6xl font-light tracking-wide">Jennifer Jurischka</h1>
       <p className="text-xl text-[var(--text-secondary)]">Desenvolvedora Full Stack</p>
-      <a href="#projetos" className="mt-4 px-6 py-3 text-[var(--accent)] rounded-full hover:bg-[var(--accent)] hover:text-white transition-all">
-        Ver projetos →
-      </a>
+     <a
+  href="#projetos"
+  className="
+    mt-16
+    inline-flex
+    items-center
+    gap-2
+    h-8
+    px-5
+    rounded-full
+    text-[var(--accent)]
+    transition-all
+    duration-300
+    hover:bg-[var(--accent)]
+    hover:text-white
+    hover:shadow-lg
+    hover:-translate-y-1
+  "
+>
+  Ver projetos
+  <span className="transition-transform duration-300 group-hover:translate-x-1">
+    →
+  </span>
+</a>
     </section>
   )
 }
