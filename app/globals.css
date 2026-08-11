@@ -32,3 +32,14 @@ body {
   font-family: 'Inter', sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
+
+.nuvem-divisoria {
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: transform 1.5s ease, opacity 1.5s ease;
+}
+
+.nuvem-visivel {
+  transform: translateX(0);
+  opacity: 1;
+}
